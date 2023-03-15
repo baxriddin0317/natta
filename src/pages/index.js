@@ -13,7 +13,7 @@ export default function Home() {
         <div className="relative md:pl-20 ">
           {/* title */}
           <div className="text-center md:text-left mb-16 md:mb-0">
-            <div className="absolute hidden md:block md:w-[100px] lg:w-[117px] -left-2 -top-16 lg:-left-2 lg:-top-24">
+            <div className="absolute hidden md:block md:w-[90px] lg:w-[117px] left-0 -top-16 lg:-left-2 lg:-top-24">
               <Circlesvg />
             </div>
             <h1 className="font-bold text-7.5xl md:text-8xl lg:text-10xl pb-3 lg:pb-4 tracking-wide md:tracking-normal">natta</h1>
