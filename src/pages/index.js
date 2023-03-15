@@ -35,14 +35,16 @@ export default function Home() {
           {/* buttons */}
           <div className="md:ml-[420px] lg:ml-[510px] md:-mt-20 lg:-mt-8 w-[225px] mx-auto md:w-[225px] lg:w-[290px] flex flex-col gap-y-2.5 items-center">
             <div className="bg-white/20 hover:bg-white/30 w-full p-2 lg:p-2.5 flex items-center gap-x-2.5 rounded-lg mb-2 lg:mb-[18px] ">
-              <Call />
+              <div className="w-6 md:w-8">
+                <Call />
+              </div>
               <input
                 className="w-full h-full bg-transparent outline-none font-medium text-lg lg:text-2xl tracking-widest"
                 placeholder="Drop Your Digits"
                 type="text"
               />
             </div>
-            <button className="bg-white/20 hover:bg-white/30 w-full p-2 lg:p-2.5 rounded-lg mb-2 font-medium text-lg lg:text-2xl tracking-widest">
+            <button className="bg-white/20 hover:bg-white/30 w-full p-1.5 lg:p-2.5 rounded-lg mb-2 font-medium text-lg lg:text-2xl tracking-widest">
               Join the <span className="text-brand-primary">DateList</span>
             </button>
             <Link 
@@ -88,6 +90,7 @@ const Circlesvg = () => {
 const Call = () => {
   return (
     <svg
+    className="w-full h-full"
       width={33}
       height={33}
       viewBox="0 0 33 33"
