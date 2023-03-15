@@ -22,27 +22,27 @@ export default function Home() {
             </p>
           </div>
           {/* text */}
-          <div className="w-[270px] lg:w-72 md:ml-[270px] lg:ml-[315px] md:-mt-7 pl-16 md:pl-0 relative mb-12 lg:mb-0">
+          <div className="w-[310px] md:w-[220px] lg:w-[310px] md:ml-[270px] lg:ml-[315px] md:-mt-7 pl-16 md:pl-0 relative mb-12 lg:mb-0">
             <div className="absolute left-3 -top-10 md:hidden w-14 h-14">
               <Circlesvg />
             </div>
-            <p className="text-4xl lg:text-5.5xl font-semibold ttracking-widest">
+            <p className="text-4xl lg:text-5.5xl font-semibold tracking-widest md:tracking-wide ">
               We’re still getting dressed, but{" "}
               <span className="text-brand-primary"> we’ll text you</span> when
               we’re ready...
             </p>
           </div>
           {/* buttons */}
-          <div className="md:ml-[420px] lg:ml-[510px] md:-mt-20 lg:-mt-8 w-[291px] mx-auto md:w-[225px] flex flex-col gap-y-2.5 items-center">
-            <div className="bg-white/20 hover:bg-white/30 w-full p-2 lg:p-2.5 flex items-center gap-x-2.5 rounded-lg mb-2 lg:mb-[18px]">
+          <div className="md:ml-[420px] lg:ml-[510px] md:-mt-20 lg:-mt-8 w-[225px] mx-auto md:w-[225px] lg:w-[290px] flex flex-col gap-y-2.5 items-center">
+            <div className="bg-white/20 hover:bg-white/30 w-full p-2 lg:p-2.5 flex items-center gap-x-2.5 rounded-lg mb-2 lg:mb-[18px] ">
               <Call />
               <input
-                className="w-full h-full bg-transparent outline-none font-medium text-lg lg:text-2xl"
+                className="w-full h-full bg-transparent outline-none font-medium text-lg lg:text-2xl tracking-widest"
                 placeholder="Drop Your Digits"
                 type="text"
               />
             </div>
-            <button className="bg-white/20 hover:bg-white/30 w-full p-2 lg:p-2.5 rounded-lg mb-2 font-medium text-lg lg:text-2xl">
+            <button className="bg-white/20 hover:bg-white/30 w-full p-2 lg:p-2.5 rounded-lg mb-2 font-medium text-lg lg:text-2xl tracking-widest">
               Join the <span className="text-brand-primary">DateList</span>
             </button>
             <Link href={"#"} className="text-xl font-medium text-center hover:text-brand-primary hover:underline transition-all duration-300 ">
