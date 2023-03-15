@@ -18,7 +18,7 @@ export default function Home() {
             </div>
             <h1 className="font-bold text-7.5xl md:text-8xl lg:text-10xl pb-3 lg:pb-4 tracking-wide md:tracking-normal">natta</h1>
             <p className="text-xl md:text-2xl lg:text-3xl font-bold tracking-wider lg:tracking-normal md:pl-2">
-              the <span className="text-brand-primary">first</span> dating app
+              the <span className="text-brand-primary underline">first</span> dating app
             </p>
           </div>
           {/* text */}
