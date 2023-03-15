@@ -12,7 +12,7 @@ export default function Home() {
       <main className="max-w-7xl mx-auto lg:px-28 px-7 flex justify-center lg:justify-start items-center h-screen">
         <div className="relative md:pl-20 ">
           {/* title */}
-          <div className="text-center md:text-left mb-16 md:mb-0">
+          <div className="text-center md:text-left mb-24 md:mb-0">
             <div className="absolute hidden md:block md:w-[90px] lg:w-[117px] left-0 -top-16 lg:-left-2 lg:-top-24">
               <Circlesvg />
             </div>
@@ -23,7 +23,7 @@ export default function Home() {
           </div>
           {/* text */}
           <div className="w-[310px] md:w-[220px] lg:w-[310px] md:ml-[270px] lg:ml-[315px] md:-mt-7 pl-16 md:pl-0 relative mb-12 lg:mb-0">
-            <div className="absolute left-3 -top-10 md:hidden w-14 h-14">
+            <div className="absolute left-2 -top-12 md:hidden w-16">
               <Circlesvg />
             </div>
             <p className="text-4xl lg:text-5.5xl font-semibold tracking-widest md:tracking-wide ">
