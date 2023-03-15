@@ -44,7 +44,7 @@ export default function Home() {
                 type="text"
               />
             </div>
-            <button className="bg-white/20 hover:bg-white/30 w-full p-1.5 lg:p-2.5 rounded-lg mb-2 font-medium text-lg lg:text-2xl tracking-widest">
+            <button className="bg-white/20 hover:bg-white/30 w-full p-1.5 lg:p-2.5 rounded-lg mb-2 font-medium text-lg leading-6 lg:text-2xl tracking-widest">
               Join the <span className="text-brand-primary">DateList</span>
             </button>
             <Link 
