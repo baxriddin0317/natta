@@ -45,7 +45,10 @@ export default function Home() {
             <button className="bg-white/20 hover:bg-white/30 w-full p-2 lg:p-2.5 rounded-lg mb-2 font-medium text-lg lg:text-2xl tracking-widest">
               Join the <span className="text-brand-primary">DateList</span>
             </button>
-            <Link href={"#"} className="text-xl font-medium text-center hover:text-brand-primary hover:underline transition-all duration-300 ">
+            <Link 
+              href={"#"} 
+              className="md:text-lg lg:text-xl font-medium text-center hover:text-brand-primary hover:underline transition-all duration-300 tracking-wide"
+            >
               Got an invite code?
             </Link>
           </div>
